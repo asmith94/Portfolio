@@ -1,1 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+    background-color: black;
+  }
 
+  article {
+    background-color: black;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    border-color: firebrick;
+    border-right:  1px solid firebrick;
+  }
+
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+  
+  .container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .container img {
+    vertical-align: middle;
+    background-size: cover;
+    width: 500px;
+  }
+  
+  .container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+    footer {
+      max-width: 60%;
+      background-color: rgba(13, 13, 13, .6);
+    }
+
+    h1 {
+      font-size: 55px;
+      font-family: 'Francois One', sans-serif;
+    }
+
+    .contact {
+      text-decoration: none;
+    }
+
+    .me {
+      width: 20%;
+      align-self: right;
+    }
+  @media only screen and (min-width: 768px) { 
+
+  }
