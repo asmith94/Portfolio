@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
-    background-image: url(https://res.cloudinary.com/alsmith94/image/upload/v1591963847/black-radial-gradient-bb05ed79_mkkrnj.jpg);
-    background-size: cover;
+   
   }
   
   body {
     margin: 0;
     font-family: Arial;
     font-size: 17px;
-    background-color: black;
+    background-image: url(https://res.cloudinary.com/alsmith94/image/upload/v1591965388/breno-machado-in9-n0JwgZ0-unsplash_qyzmkz.jpg);
+    background-size: cover;
   }
 
 
