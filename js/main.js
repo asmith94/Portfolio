@@ -15,9 +15,8 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-    let myElement = $('#subtext');
+    let myElement = $('#coding');
     myElement.css('font-size', "30px")
-    myElement.css('color', 'blue')
     myElement.css('max-width', '100%')
     myElement.css('font-style', 'italic')
 });
@@ -40,7 +39,19 @@ $.ajax({ url:'https://spreadsheets.google.com/feeds/list/1HY3tz_1B-5GHfX_9yDpdpd
     });
     app(projects);
    })
-   
+
+//Fun little random function to add some personality
+
+let click = document.getElementById('dblclick');
+
+document.ondblclick = logDoubleClick;
+
+function logDoubleClick(e) {
+  click.textContent = `Position: (${e.clientX}, ${e.clientY})`;
+}  
+
+
+
 // function app(projectsArr) {
     
 //     projectsArr.forEach(function(projectsArr) {
