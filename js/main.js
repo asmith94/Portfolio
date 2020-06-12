@@ -82,7 +82,7 @@ function app(projectsArr) {
 
 
 // Unfortunately I was not able to get the function 'app' to work correctly. I spend the entire night working on it,
-// and hopefully by the morning I can get it done.
+// and am stuck with syntax
     
    
 
