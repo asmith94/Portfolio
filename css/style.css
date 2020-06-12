@@ -1,14 +1,12 @@
 * {
     box-sizing: border-box;
-    color: wheat;
+    color: #90AFC5;
   }
   
   body {
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url(https://res.cloudinary.com/alsmith94/image/upload/v1591965388/breno-machado-in9-n0JwgZ0-unsplash_qyzmkz.jpg);
-    background-size: cover;
-    color: white;
+    background-color: #2A3132;
   }
 
 
@@ -16,7 +14,6 @@
     margin-bottom: 0;
     border-radius: 0;
     border-color: firebrick;
-    border-right:  1px solid firebrick;
     font-size: medium;
   }
   
@@ -33,20 +30,32 @@
       font-family: 'Francois One', sans-serif;
       max-width: 120%;
       letter-spacing: 2px;
-      outline-color: lightsalmon;
-      color: azure;
+      color: #4F42BC;
+
     }
 
     .contact {
       text-decoration: none;
     }
 
+    
+    #my_centered_buttons { 
+      display: flex; 
+      justify-content: center; 
+      padding: 30px;
+    }
+
+
     #me {
-      padding-top: 15%;
-      max-width: 50%;
+      padding-top: 10%;
+      max-width: 30%;
       display: block;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    #dblclick {
+      color: #336B87;
     }
 
     #image {
@@ -56,7 +65,7 @@
    
     #about-me {
       text-align: center;
-      color: rgb(52, 211, 153);
+      color: #90AFC5;
       font-size: 35px;
       padding-bottom: 100px;
     }
@@ -72,13 +81,12 @@
    
     .intro {
       font-size: 20px;
-      color: lightcoral;
+      color: #D18B83;
     }
 
     .card-title {
       color: rgb(231, 201, 27);
       max-width: 100%;
-      border-bottom: blue;
     }
 
     .mbr-text {
@@ -99,14 +107,14 @@
       padding: 40px;
     }
 
-    .submit {
+    .btn {
       padding: 10px;
       margin: 10px;
       padding-block-end: 10px;
     }
 
     #languages {
-      color: darkviolet;
+      color: #5689A0;
       font-size: 50px;
       text-align: center;
       justify-self: center;
@@ -115,7 +123,7 @@
     #contactme {
       font-size: 30px;
       font-weight: 700;
-      color: firebrick;
+      color: rgb(191, 116, 119);
     }
 
    

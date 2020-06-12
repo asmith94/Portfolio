@@ -1,122 +1,26 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Unit 1 Project Build A Portfolio Site
+Name
+    Austin Smith - Portfolio
 
-#### Overview
+Description
 
-This project will give you a chance to use the skills we've learned in class to create a site that highlights the skills and projects you'll be working on in WDI. You'll get a chance to use JavaScript to tackle interactions such as an image slider, a responsive hamburger menu, and quotes that fade in and out on a timer.
+    This is a simple portfolio of some of the projects that I have done so far for General Assembly. It is responsive to being resized and scales down to cell phone size.
 
-Make sure to customize the design and content of the website to make it your own.
+Installation
 
-You will be working individually for this project, but we'll be guiding you throughout the process and helping as you go.
+    I didn't have to install anything except linking bootstrap jquery and reset.css and my reglar css file
 
----
+MVP
 
-#### Requirements
+    I needed to get the basic functionality of the website down, so having all of the nav buttons work as well as it resizing the content to fit a smaller screen. There are many ways of getting the content from the spreadsheets, so I ended up hard copying the info down just so that I would have the website up and ready to go to show off to clients. All of the links work and are responsive and dynamic. I was able to complete the different sizes of the portfolio with bootstrap and styled it with css. It took about 10 - 12 hours, so I was over my mark by a couple hours. It took me much longer to do the jquery and javascript than it did navagation or styling, so my timeline was off.
 
-Your work must:
+Support, Authors, and acknowlodgement
 
-- Use semantic markup for HTML and CSS, adhering to best practices.
-- Use CSS GRID to create a multi-column layout.
-- Use Flexbox for content
-- Must be mobile mobile first, then tablet and desktop responsive.
-- Must pull in projects via API call from google sheet 
-- Be deployed and accessible online either via Github Pages or Surge. 
----
+    w3, addtoany, mdbootstrap, unsplash, and a special thanks to Google, Jim, and Brock who spent an hour with me only to realize that i spelled src "scr"
 
-#### Necessary Deliverables
+Contributing
 
-- An About, Projects, Contact form 
-- Site must be created using a "mobile first" approach. 
-- A Git repository, hosted on your personal GitHub, that includes a link to your hosted site. Site url should be in the form of githubusername.github.io. 
-- Repo must contain frequent commits (min 15+) dating back to the beginning of the project.
-- An updated project workshheet will all sections filled out accordingly. 
-- An in-class demo of the site that shows off the interactions you worked on.
-- A mobile nav that expands and collapses when a user clicks on the hamburger icon.
+    I would gladly take any contributions or advice, especially with the jquery.
 
-## Portfolio Samples
+Project status
 
-Check out portfoliios that look awesome and emulate the parts that speak to you. Here are some that we like but you should google around and find stuff you're into.
-
- - [denisechandler.com](http://www.denisechandler.com/)
-
- - [mattfarely.ca](http://mattfarley.ca/)
-
- - [sebkay.com](http://sebkay.com/)
-
- - [imdev.in](https://imdev.in/)
- 
- ### Previous SEI Students
-
- - [helloaileen.com](http://helloaileen.com)
- 
- - [eloise-ress-barrow.surge.sh/](http://eloise-ress-barrow.surge.sh/#writing)
-
- - [lianapenn.com](https://www.lianapenn.com/)
- 
- - [robertdiscipio.surge.sh/](http://robertdiscipio.surge.sh/)
- 
- - [andrewhollingworth.com/](http://andrewhollingworth.com/)
- 
- - [jessicalandzberg.github.io/](https://jessicalandzberg.github.io/Unit_1_Project/#myJourney0)
- 
- - [ga profiles](https://profiles.generalassemb.ly/profiles)
-
-
-### Finding Good Portfolio Sites To Emulate - 10 min
-
-Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to incorporate into your own site. 
-
-Link To Site  | One Thing I'd Like To Incorporate | Initial Research On That Item
-| ------------- | ------------- | ------------- |
-| [http://www.denisechandler.com/](http://www.denisechandler.com/)| initial animation\drawing on page load
-|[jkeohan.com](jkeohan.com) | mouseover on a project triggers animations |
-| [http://mattfarley.ca/](http://mattfarley.ca/) |  layout of the projects
-
-#### Starter Code
-
-No starter code has been provided for this project, as you will be building your site from scratch. As an option, you can use the [HTML5 Boilerplate](https://html5boilerplate.com/) as a template to get started.
-
----
-#### Suggested Ways to Get Started
-
-- Don't hesitate to write throwaway code to solve short-term problems.
-- Read the documentation for whatever technologies you use. **Most of the time — but not always — there is a tutorial you can follow, and learning to read documentation is crucial to your success as a developer.**
-- **Write pseudocode before you write any JavaScript code.** Planning out and thinking through interactions for a website is an important step that will save you time and effort when you start actually coding.
-- Do not simply copy and paste code that you find online! It is OK (and highly encouraged) to use resources like Stack Overflow when thinking through interactions, but use these sites as a guide and then write the code on your own.
-
-#### Front End Frameworks
-
-Try exploring these front end frameworks:
-
-- [https://materializecss.com/](https://materializecss.com/)
-- [https://getbootstrap.com/](https://getbootstrap.com/)
-
----
-#### Hungry For More?
-
-If you're looking for an extra challenge, try tackling some of the tasks below:
-
-* Add validation to the contact form to make sure the user has filled out all required fields before submitting.
-* Add a skills section featuring skills you have/will have learned in the class.
-* Add a carousel 
-
----
-
-#### Additional Resources
-
-- Joe's [FEWD Trello Board](https://trello.com/b/yqrvugBk/lectures)
-- Joe's YouTube 3 Part Sereis on [jQuery Top Nav Animation On Scroll](https://www.youtube.com/watch?v=mRsF-a3qFZE&t=176s)
-
-
-#### Need More Review?
-
-
-- HTML/CSS
-	- [Practice CSS Selectors with CSS Diner](https://flukeout.github.io/)
-	- [Flexbox Froggy](http://flexboxfroggy.com/)
-
-
-- JavaScript
-	- [JavaScript Timers](https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Timers)
-
----
-
+    Unfortunanately, I do not think I would ever have enough time to really be happy with my website. It is one of those things where I will nitpick and continue to add random functionality forever unless I am stopped. I will update it with more projects though or swap some of the ones out that I have.
