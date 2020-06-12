@@ -1,8 +1,8 @@
-$.ajax({ url:'https://docs.google.com/spreadsheets/d/1HY3tz_1B-5GHfX_9yDpdpdgEzPVQX5Ub1J_F2cyOSF8/edit?usp=sharing' })
+$.ajax({ url:'https://www.xodo.com/app/#/view/49b5b202-9fd4-4ecb-8af5-81df18cd5990' })
 .then(data => console.log(data) )
 .catch((err) => console.log('err -', err));
 
-var htmlOutput = template.evaluate().setSandboxMode(HtmlService.SandboxMode.IFRAME);
+
 
 $(document).ready(function() {
     let myElement = $('#subtext');
@@ -27,18 +27,21 @@ $.ajax({ url:'https://spreadsheets.google.com/feeds/list/1HY3tz_1B-5GHfX_9yDpdpd
     app(projects);
 })
 
-function app(projectsArr) {
-    console.log("app - projects", projectsArr);
-    projectsArr.forEach((project) => {
+function app(projects) {
+    console.log("app - projects", projects);
+    projects.forEach((project) => {
     
-        
-        $("#image").attr('src', project.image);
+       
+    
+        $("img#image").attr('src', projects.image);
         // $('.picture').append(img);
-        $("a#a-tag").prop("href", project.url)
+        $("a#a-tag").prop("href", projects.url);
+        
     })
 
 
 }; 
+
 
 
 
