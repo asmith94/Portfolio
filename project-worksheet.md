@@ -106,19 +106,37 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
 
-function reverse(string) {
-	let revString="";
-	let arr = string.split('');
-	for (let i = string.length-1; i >= 0; i--) {
-		revString += arr[i];
-	}
-	return revString;
-}
+<div class="container-fluid">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6 col-lg-2">
+                <div class="card-wrapper">
+                    <div class="card-img">
+                        <a href="https://codepen.io/asmith94/pen/RwrWxxm"> <img src="https://res.cloudinary.com/alsmith94/image/upload/v1591662431/Screen_Shot_2020-06-08_at_7.25.35_PM_g9sa5p.png" id="image" alt="WDI Game"></a>
+                      </div>
+                    <div class="card-box">
+                      <div id="anchor-link"></div>
+                        <h4 class="card-title pb-3 mbr-fonts-style display-7">
+                            WDI Fundamentals
+                        </h4>
+                        <p class="mbr-text mbr-fonts-style display-7">
+                          This was a basic card matching game that I created to get into GA.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+Keeping track of all of the classes and IDs was definitely challenging but when I finally got everything working, I was very proud.
 
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+ My js file has 3 errors in it, and they all involve the syntax for one line, which is jquery and missing apostrophes and arbitrary brackets and parenthesis.
 
-#### SAMPLE.....
-**ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
-**RESOLUTION**: Missing comma after first object in sources {} object
+**ERROR**: app.js:68 Expected corresponding JSX closing tag for 'div'.                                
+**RESOLUTION**: No solution found yet
+
+**ERROR**: app.js:60 Expected corresponding JSX closing tag for 'a'.                                
+**RESOLUTION**: No solution found yet
+
+**ERROR**: app.js:59 Expected corresponding JSX closing tag for 'img'.                                
+**RESOLUTION**: No solution found yet
+
