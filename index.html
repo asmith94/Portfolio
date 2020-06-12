@@ -5,14 +5,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
 </head>
 <body>
-<article>
+
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -35,23 +36,29 @@
       </ul>
     </div>
   </div>
+\
 </nav>
 
-<div class="container2">
+<div class="jumbotron jumbotron-fluid">
+<div class="container">
+  <div class="min-vw-100">
   <img src="https://res.cloudinary.com/alsmith94/image/upload/v1591808448/branko-stancevic-GI1hwOGqGtE-unsplash_q6evh6.jpg" alt="computerCode" style="width:100%;">
-    <div class="content">
+</div>  
+  <div class="display-4"></div>
+  
   <h1>I am Austin Smith</h1>
   <p id="subtext">Welcome to my portfolio</p>
-    </div>
+    
+  </div>
 </div>
-<!-- As inspired from the website of the AirForce -->
-<a href="#me" class="btn btn-glass">Lets Take a Look</a>
+</div>
 
-<div class="container">
+
+
 <div id="me">
 <img src="https://res.cloudinary.com/alsmith94/image/upload/c_thumb,e_auto_saturation,g_center,h_2336,r_8/v1591817334/Screenshot_20200322-152020_Gallery_wjjraf.jpg" class="rounded-circle" alt="Selfie" style="width:100%;">
 </div>
-</div>
+
 
 <div id="about-me">
     <h3>About Me</h3>
@@ -60,36 +67,47 @@
 
 
 <!-- This is the start of the Projects which i will create a carosel for using Bootstrap-->
-  <div class="container-fluid bg-3 text-center">    
-  <em><h3>Projects</h3></em><br>
-  <div class="row">
-    <div class="col-sm-3">
-      <p>project 1</p>
-      <a href="#" id="a-tag" style="width:100%">
+<div class="bs-example">
+  <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <img src="/examples/images/slide1.png" id="image" alt="First Slide">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="/examples/images/slide2.png" id="image" alt="Second Slide">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>Second slide label</h5>
+                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <img src="/examples/images/slide3.png" id="image" alt="Third Slide">
+                  <div class="carousel-caption d-none d-md-block">
+                      <h5>First slide label</h5>
+                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                  </div>
+              </div>
+          </div>
+          <!-- Carousel controls -->
+          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
       </div>
-    <div class="col-sm-3"> 
-      <p>Project2</p>
-      <a href="https://placehold.it/150x80?text=IMAGE" id="a-tag" style="width:100%">
-      </div>
-    <div class="col-sm-3"> 
-      <p>Project 3</p>
-      <a href="https://placehold.it/150x80?text=IMAGE" id="a-tag" style="width:100%">
-      </div>
-    <div class="col-sm-3">
-      <p>Project 4</p>
-      <a href="https://placehold.it/150x80?text=IMAGE" id="a-tag" style="width:100%">
-      </div>
-      <div class="col-sm-3">
-        <p>Project 5</p>
-        <a href="https://placehold.it/150x80?text=IMAGE" id="a-tag" style="width:100%">
-        </div>
-      <div class="col-sm-3">
-        <p>Project 6</p>
-        <a href="https://placehold.it/150x80?text=IMAGE" id="a-tag" style="width:100%">
-      </div>
-    </div>
   </div>
-</div><br>
 
 
 
@@ -105,7 +123,7 @@
   <button type="submit" class="btn btn-default">Submit</button>
   </div>
 </footer>
-</article>
+
 <script src="js/main.js"></script>
 </body>
 </html>
