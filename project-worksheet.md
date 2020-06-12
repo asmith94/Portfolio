@@ -78,24 +78,24 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Grid | H | 1.5hr | -hr | -hr|
-| Project Previews | H | 1.5hr | -hr | -hr|
-| Regular Nav | H | 1.5hr | -hr | -hr|
-| Working with API | H | 3hrs| 2hr | -hr |
-| Navagation | H | 1.5hr | -hr | -hr|
-| Social Media Icons | L | 1hr | -hr | -hr|
-| Total | H | 10hrs| -hrs | -hrs |
+| Grid | H | 1.5hr | .5hr | .5hr|
+| Project Previews | H | 1.5hr | .5hr | .5hr|
+| Regular Nav | H | 1.5hr | .5hr | .5hr|
+| Working with API | H | 3hrs| 2hr | 4hr |
+| JQUERY & JS | H | 1.5hr | 8hr | 10hr|
+| Social Media Icons | L | 1hr | .1hr | .1hr|
+| Total | H | 10hrs| 15hrs | 16.1hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Splash Screen | L | 1hr | -hr | -hr|
-| Credentials | L | 1hr | -hr | -hr|
-| Languages Known | M | 1hr | -hr | -hr|
-| References | H | 1hr | -hr | -hr|
-| Contact Page | H | 2hr | -hr | -hr|
-| Pic of me and Intro | L | 1hr | -hr | -hr|
-| Total | H | 7hrs| -hrs | -hrs |
+| Splash Screen | L | 1hr | 2hr | 3hr|
+| Credentials | L | 1hr | 2hr | 2hr|
+| Languages Known | M | 1hr | .5hr | .5hr|
+| References | H | 1hr | 0hr | 0hr|
+| Contact Page | H | 2hr | 1hr | 1hr|
+| Pic of me and Intro | L | 1hr | .5hr | .5hr|
+| Total | H | 7hrs| 7hrs | -7hrs |
 
 ## Additional Libraries
  JQuery
