@@ -1,12 +1,14 @@
 * {
     box-sizing: border-box;
+    background-image: url(https://res.cloudinary.com/alsmith94/image/upload/v1591963847/black-radial-gradient-bb05ed79_mkkrnj.jpg);
+    background-size: cover;
   }
   
   body {
     margin: 0;
     font-family: Arial;
     font-size: 17px;
-   background-color: black;
+    background-color: black;
   }
 
 
@@ -15,31 +17,25 @@
     border-radius: 0;
     border-color: firebrick;
     border-right:  1px solid firebrick;
+    font-size: medium;
   }
-
-  footer {
-    background-color: #f2f2f2;
-    padding: 25px;
-  }
-
-
-  
- 
- 
-   
- 
-
-  
   
     footer {
-      max-width: 40%;
-      background-color: rgba(13, 13, 13, .4);
+      max-width: 60%;
+      opacity: 90%;
+      background-color: #070505;
+      padding: 25px;
+      background: #302F35;  
+      color: aquamarine;  
     }
 
     h1 {
-      font-size: 100px;
+      
       font-family: 'Francois One', sans-serif;
-      max-width: 100%;
+      max-width: 120%;
+      letter-spacing: 2px;
+      outline-color: lightsalmon;
+      color: azure;
     }
 
     .contact {
@@ -48,97 +44,70 @@
 
     #me {
       padding-top: 15%;
-      max-width: 20%;
+      max-width: 50%;
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
 
-    /* Bootstrap from https://colorlib.com/wp/bootstrap-buttons/
-    .btn- glass {
-      flex-grow: 1;
-      text-align: center;
-      display: inline-block;
-      color: fade(white, 70%);
-      text-decoration: none;
-      padding: 1em 2em;
-      font-family: Lato;
-      font-weight: 300;
-      border: 1px dotted transparent;
-      letter-spacing: 0.98pt;
-      text-transform: uppercase;
-      text-shadow: 0 0 5px black;
-      transition: background-position 2s cubic-bezier(0,1,0,1), border-color 500ms, background-color 500ms;
-      position: relative;
-      background-attachment: fixed, scroll;
-      background-size: 100vw 100vh, cover;
-      background-position: center center, 0 0;
-      /* background-image: @gloss, */
-      /* radial-gradient(ellipse farthest-corner, transparent, fade(black,20%) 110%); */
-    
-
-    #about-me {
-      color: #b82e2e;
-      text-align: center;
-      font-size: 30px;
-    }
-
-
-    .gallery-block{
-      padding-bottom: 60px;
-      padding-top: 60px;
-    }
-    
-    .gallery-block .heading{
-        margin-bottom: 50px;
-        text-align: center;
-    }
-    
-    .gallery-block .heading h2{
-        font-weight: bold;
-        font-size: 1.4rem;
-        text-transform: uppercase;
-    }
-    
-    .gallery-block.cards-gallery h6 {
-      font-size: 17px;
-      font-weight: bold; 
-    }
-    
-    .gallery-block.cards-gallery .card{
-      transition: 0.4s ease; 
-    }
-    
-    .gallery-block.cards-gallery .card img {
-      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15); 
-    }
-    
-    .gallery-block.cards-gallery .card-body {
-      text-align: center; 
-    }
-    
-    .gallery-block.cards-gallery .card-body p {
-      font-size: 15px; 
-    }
-    
-    .gallery-block.cards-gallery a {
-      color: #212529; 
-    }
-    
-    .gallery-block.cards-gallery a:hover {
-      text-decoration: none; 
-    }
-    
-    .gallery-block.cards-gallery .card {
-      margin-bottom: 30px; 
-      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
-    }
-    
-    @media (min-width: 576px) {
-    
-      .gallery-block .transform-on-hover:hover {
-          transform: translateY(-10px) scale(1.02);
-          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
-      }
+    #image {
+      max-width: 100%;
+      height: auto;
     }
    
+    #about-me {
+      text-align: center;
+      color: rgb(52, 211, 153);
+      font-size: 35px;
+      padding-bottom: 100px;
+    }
+
+    h3 {
+      font-size: 50px;
+    }
+
+    .jumbotron {
+      background-color: black;
+    }
+   
+    .intro {
+      font-size: 20px;
+      color: lightcoral;
+    }
+
+    .card-title {
+      color: rgb(231, 201, 27);
+      max-width: 100%;
+      border-bottom: blue;
+    }
+
+    .mbr-text {
+      color: oldlace;
+      margin: 30px;
+    }
+
+    li {
+      font-weight: 500;
+    }
+
+    .container-fluid > .skills {
+      text-align: center;
+      justify-self: center;
+      justify-content: center;
+      align-items: center;
+      align-content: space-between;
+      padding: 40px;
+    }
+
+    .submit {
+      padding: 10px;
+      margin: 10px;
+      padding-block-end: 10px;
+    }
+
+    #languages {
+      color: darkviolet;
+      font-size: 50px;
+      text-align: center;
+      justify-self: center;
+    }
