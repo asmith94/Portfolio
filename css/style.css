@@ -35,7 +35,7 @@
     vertical-align: middle;
     background-size: cover;
     width: 500px;
-  }
+  } 
   
   .container .content {
     position: absolute;
@@ -66,14 +66,14 @@
     }
 
     #me {
-      padding-top: 100%;
-      width: 20%;
+      padding-top: 15%;
+      max-width: 20%;
       display: block;
       margin-left: auto;
       margin-right: auto;
     }
 
-    /* Bootstrap from https://colorlib.com/wp/bootstrap-buttons/ */
+    /* Bootstrap from https://colorlib.com/wp/bootstrap-buttons/
     .btn- glass {
       flex-grow: 1;
       text-align: center;
@@ -94,7 +94,7 @@
       background-position: center center, 0 0;
       /* background-image: @gloss, */
       /* radial-gradient(ellipse farthest-corner, transparent, fade(black,20%) 110%); */
-    }
+    
 
     #about-me {
       color: #b82e2e;
