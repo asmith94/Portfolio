@@ -55,7 +55,7 @@ const $div = $('div');
 function app(projectsArr) {
     const createTable = () => {
         projectsArr.forEach(iconData => {
-            let $a = $(<div class="card-img"> <i class="${iconData.image}"></i>
+            let $a = $(`<div class="card-img"> <i class="${iconData.image}"></i>
                 <a href="${iconData.url}"> <img src="${iconData.image}" id="image" alt="${iconData.title}"></a>
                 </div>
                 <div class="card-box">
@@ -66,7 +66,7 @@ function app(projectsArr) {
                           We made a article/website for a fashion magazine. This was a fun one!
                 </p>
                 </a>
-          </div>)
+          </div>`)
         $div.append($a);
         })
     };
