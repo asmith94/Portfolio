@@ -65,7 +65,8 @@ function app(projectsArr) {
                 <p class="mbr-text mbr-fonts-style display-7">
                           We made a article/website for a fashion magazine. This was a fun one!
                 </p>
-          </a>')
+                </a>
+          </div>)
         $div.append($a);
         })
     };
