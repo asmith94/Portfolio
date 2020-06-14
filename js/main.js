@@ -37,7 +37,7 @@ $.ajax({ url:'https://spreadsheets.google.com/feeds/list/1HY3tz_1B-5GHfX_9yDpdpd
             url: project.gsx$url.$t
     };
     });
-    app(projects);
+    //app(projects);
    })
 
 //Fun little random function to add some personality
