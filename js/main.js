@@ -50,28 +50,31 @@ function logDoubleClick(e) {
   click.textContent = `Position: (${e.clientX}, ${e.clientY})`;
 }  
 
-const $div = $('div');
+//I needed to comment this out because it was adding cards after each div class. I will have time to 
+//fix it when I finish my hws
 
-function app(projectsArr) {
-    const createTable = () => {
-        projectsArr.forEach(iconData => {
-            let $a = $(`<div class="card-img"> <i class="${iconData.image}"></i>
-                <a href="${iconData.url}"> <img src="${iconData.image}" id="image" alt="${iconData.title}"></a>
-                </div>
-                <div class="card-box">
-                <h4 class="card-title pb-3 mbr-fonts-style display-7">
-                    "${iconData.title}"
-                </h4>
-                <p class="mbr-text mbr-fonts-style display-7">
-                          We made a article/website for a fashion magazine. This was a fun one!
-                </p>
-                </a>
-          </div>`)
-        $div.append($a);
-        })
-    };
-    createTable();
-}         
+// const $div = $('div');
+
+// function app(projectsArr) {
+//     const createTable = () => {
+//         projectsArr.forEach(iconData => {
+//             let $a = $(`<div class="card-img"> <i class="${iconData.image}"></i>
+//                 <a href="${iconData.url}"> <img src="${iconData.image}" id="image" alt="${iconData.title}"></a>
+//                 </div>
+//                 <div class="card-box">
+//                 <h4 class="card-title pb-3 mbr-fonts-style display-7">
+//                     "${iconData.title}"
+//                 </h4>
+//                 <p class="mbr-text mbr-fonts-style display-7">
+//                           We made a article/website for a fashion magazine. This was a fun one!
+//                 </p>
+//                 </a>
+//           </div>`)
+//         $div.append($a);
+//         })
+//     };
+//     createTable();
+// }         
 
             
 
